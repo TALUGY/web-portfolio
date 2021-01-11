@@ -1,3 +1,36 @@
+@import url("normalize/normalize.css");
+
 body {
 	background-color: #e1ded6;
 }
+
+.container {
+	display: relative;
+}
+
+/* NAVBAR */
+.navbar {
+	background-color: #599ED7;
+	position: fixed;
+	width: 100%;
+	display: relative;
+	top: 0;
+}
+
+.navbar a {
+	font-size: 10px;	
+	margin: 7px 18px 7px 18px;
+	display: block;
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding: 7px 5px 7px 5px;
+	text-align: center;
+
+  	transition: .3s;
+}
+
+.navbar a:hover {
+	background-color: black;
+}
+
