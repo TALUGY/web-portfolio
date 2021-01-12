@@ -1,36 +1,92 @@
 @import url("normalize/normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body {
-	background-color: #e1ded6;
+/* SECTIONS */
+@import url("aboutme.css");
+@import url("techs.css");
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-	display: relative;
+body {
+	/*background-color: #e1ded6;*/
+	background-color: #dedddd;
+
 }
 
 /* NAVBAR */
 .navbar {
+	z-index: 2;
 	background-color: #599ED7;
 	position: fixed;
 	width: 100%;
-	display: relative;
 	top: 0;
 }
 
 .navbar a {
-	font-size: 10px;	
-	margin: 7px 18px 7px 18px;
+	font-size: 16px;	
+	margin: 7px 10px 7px 10px;
 	display: block;
 	float: left;
 	color: white;
 	text-decoration: none;
-	padding: 7px 5px 7px 5px;
+	padding: 10px 20px 10px 20px;
 	text-align: center;
-
-  	transition: .3s;
+ 	transition: .3s;
 }
 
 .navbar a:hover {
 	background-color: black;
 }
+
+/* PORTADA */
+.portada {
+	position: relative;
+	background-color: #599ED7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 8px solid #3c93da;
+}
+
+.portada img {
+	padding: 80px 100px;
+	width: 300px;
+}
+
+.portada_title {
+	margin-left: 8em;
+	color: white;
+}
+
+.portada_title h1{
+	font-size: 3.5em;
+	margin-bottom: 0 !important;
+	letter-spacing: 5px;
+}
+
+.portada_title h2{
+	font-size: 2.4em;
+	float: right;
+	letter-spacing: 5px;
+	margin-bottom: 0 !important;
+}
+
+.name_section{
+	display: inline-block;
+	padding: 0 40px 5px 0;
+	border-bottom: 3px solid #599ED7;
+}
+
+
+
+
+
+
+
+
+
+
 

@@ -1,0 +1,22 @@
+.aboutME {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.aboutME_text {
+	width: 30%;
+	margin-right: 120px;
+}
+
+.aboutME_text p {
+	line-height: 23px;
+	font-size: 1.1em
+
+}
+
+.aboutME img {
+	width: 550px;
+}

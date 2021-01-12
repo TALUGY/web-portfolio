@@ -15,15 +15,31 @@
 		
 		<!-- NAVBAR -->	
 		<div class="navbar">
-			<a href=""> ABOUT ME </a>
+			<a href="#aboutME"> ABOUT ME </a>
 			<a href=""> TECHNOLOGIES </a>
 			<a href=""> WORKS </a>
 			<a href=""> CONTACT </a>
 		</div>
 
 		<!-- PORTADA -->
-		<div class="portada"></div>
+		<div class="portada">
+			<img src="../img/imgPortada.svg" alt="">
+			<div class="portada_title">
+				<h1> ALEJO PERCUDANI</h1>			
+				<h2> WEB DESIGNER </h2>
+			</div>
+		</div>
 
+
+		<!-- ABOUT ME -->
+		<?php 
+		include("aboutME.php");
+		?>
+
+		<!-- TECHNOLOGIES -->
+		<?php 
+		include("techs.php");
+		?>
 	</div>
 </body>
 </html>
