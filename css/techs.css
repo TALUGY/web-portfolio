@@ -1,0 +1,23 @@
+.techs {
+	text-align: right;
+}
+
+#tech_title {
+	padding: 0 0 5px 40px;
+}
+
+.techs_list {
+	text-align: center;
+	position: relative;
+}
+
+.techs_list img {
+	left: 50%;
+	width: 15%;
+	margin: 40px;
+	transition: .3s;
+}
+
+.techs_list img:hover {
+	width: 15.6%;
+}

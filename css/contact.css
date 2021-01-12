@@ -1,0 +1,40 @@
+.contact {
+	text-align: right;
+}
+
+#contact_title {
+	padding: 0 0 5px 40px;
+}
+
+.social_media {
+	text-align: center;
+}
+
+.redes {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+#email {
+	position: absolute;
+	left:1%;
+}
+
+#whatsapp {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#instagram {
+	position: absolute;
+	right: 9%;
+}
+.redes img {
+	height: 38px;
+	transition: .3s
+}
+
+.redes img:hover {
+	height: 40px;
+}

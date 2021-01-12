@@ -7,18 +7,17 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="../css/style.css">
-
-
 </head>
 <body>
+	
 	<div class="container">
 		
 		<!-- NAVBAR -->	
 		<div class="navbar">
-			<a href="#aboutME"> ABOUT ME </a>
-			<a href=""> TECHNOLOGIES </a>
-			<a href=""> WORKS </a>
-			<a href=""> CONTACT </a>
+			<a href="#aboutme"> ABOUT ME </a>
+			<a href="#techs"> TECHNOLOGIES </a>
+			<a href="#works"> WORKS </a>
+			<a href="#contact"> CONTACT </a>
 		</div>
 
 		<!-- PORTADA -->
@@ -31,15 +30,33 @@
 		</div>
 
 
-		<!-- ABOUT ME -->
-		<?php 
-		include("aboutME.php");
-		?>
+		<div class="categories">
 
-		<!-- TECHNOLOGIES -->
-		<?php 
-		include("techs.php");
-		?>
+			<!-- ABOUT ME -->
+			<?php 
+				include("aboutME.php");
+			?>
+	
+			<!-- TECHNOLOGIES -->
+			<?php 
+				include("techs.php");
+			?>
+
+			<!-- WORKS -->
+			<?php 
+				include("works.php");
+			?>
+
+			<!-- CONTACT -->
+			<?php 
+				include("contact.php");
+			?>
+
+		</div>
+		<div class="footer">
+		<h5>All rights reserved</h5>
 	</div>
+	</div>
+
 </body>
 </html>

@@ -1,0 +1,39 @@
+.cards {
+	text-align: center;
+}
+
+.card_work {
+	border: 1px solid grey;
+	display: inline-block;
+	margin: 40px;
+	box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.2)
+}
+
+.card_work img {
+	width: 260px;
+	transition: .3s
+}	
+
+.card_work img:hover {
+	width: 267px;
+}
+
+
+.title_work {
+	padding: 30px 30px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.btn_work {
+	width: 100%;
+	padding: 17px 17px;
+	background-color: #599ED7;
+	border: none;
+	transition: .3s;
+	color: white;
+}
+
+.btn_work:hover {
+	background-color: #3c93da;
+}

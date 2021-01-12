@@ -1,4 +1,4 @@
- 		<div class="aboutME">
+ 		<section class="aboutME" id="aboutme">
 			<div class="aboutME_text">
 				<h2 class="name_section"> ABOUT ME</h2>
 				<p>
@@ -6,4 +6,4 @@
 				</p>
 			</div>
 			<img src="../img/designReponsive.png" alt="">
-		</div>
+		</section>
