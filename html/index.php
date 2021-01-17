@@ -53,9 +53,6 @@
 			?>
 
 		</div>
-		<div class="footer">
-		<h5>All rights reserved</h5>
-	</div>
 	</div>
 
 </body>

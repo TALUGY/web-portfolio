@@ -1,8 +1,8 @@
 .contact {
-	text-align: right;
+	text-align: center;
 }
 
-#contact_title {
+/*#contact_title {
 	padding: 0 0 5px 40px;
 }
 
@@ -38,3 +38,39 @@
 .redes img:hover {
 	height: 40px;
 }
+*/
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.contact_container {
+	border: 1px solid blue;
+	display: flex;
+	width: 60%;
+	height: 550px;
+}
+
+.msg {
+	border: 1px solid red;
+	width: 65%;
+}
+
+.msg input, textarea{
+	display: block;
+	border: none;
+	outline: none;
+}
+
+form {
+	border: 1px solid yellow;
+}
+
+.msg input [name="name"],
+	input [name="email"] {
+		
+
+	}

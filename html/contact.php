@@ -1,4 +1,4 @@
- 		<section class="contact" id="contact">
+ 		<section class="contact" id="contact"><!-- 
  			<h2 id="contact_title" class="name_section" name="contact"> CONTACT </h2>
 			<div class="social_media">
 
@@ -16,5 +16,30 @@
 					<img src="../img/redes_icons/instagram_icon.png" alt="Instagram_Icon">
 					<H4> _alejohh </H4>
 				</div>
+			</div> -->
+			<div class="contact_container">
+				<div class="msg">
+					<form action="POST">
+						<input type="text" name="name" placeholder="Name" required>
+						<input type="email" name="email" placeholder="E-Mail" required>
+						<textarea name="msg" placeholder="Enter your message" required></textarea>
+						<input type="submit" value="SEND" name="btn_send_msg">
+					</form>
+				</div>
+
+				<div class="social_media">
+					<a href="">
+						<img src="../img/redes_icons/gmail_icon.png" alt="GMAIL">
+					</a>
+
+					<a href="">	
+						<img src="../img/redes_icons/instagram_icon.png" alt="INSTAGRAM">
+					</a>
+
+					<a href="">
+						<img src="../img/redes_icons/github_icon.png" alt="GITHUB">
+					</a>
+				</div>
 			</div>
+
 		</section> 
